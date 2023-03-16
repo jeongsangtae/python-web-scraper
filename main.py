@@ -96,12 +96,59 @@ while playing:
 
 
 # method
-
-
-
+"""
 name = "jeong"
 
 print(name.upper())
 print(name.capitalize())
 print(name.endswith("o"))
 print(name.replace("j", "y"))
+"""
+
+
+
+# List
+"""
+days_of_week = ["Mon", "Tue", "Wed", "Thu", "Fri", [1, 2, 3]]
+print(days_of_week)
+
+days_of_week.append("Sat")
+print(days_of_week) 
+
+days_of_week.append("Sun")
+print(days_of_week) 
+print(days_of_week[5][1])
+print(days_of_week[6][1])
+
+days_of_week.remove("Mon")
+print(days_of_week)
+"""
+
+
+
+
+# Tuple
+"""
+days = ("Mon", "Tue", "Wed")
+
+print(days[-3])
+"""
+
+
+
+# Dict
+player = {
+  "name": "jeong",
+  "age": 31,
+  "alive": True,
+  "fav_food": ["🍕", "🍔"]
+}
+
+print(player)
+print(player['age'])
+print(player["fav_food"])
+print(player.get("fav_food"))
+print(player.pop("age"))
+player['xp'] = 999
+player["fav_food"].append("🌭")
+print(player)
