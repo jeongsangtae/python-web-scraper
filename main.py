@@ -137,6 +137,7 @@ print(days[-3])
 
 
 # Dict
+"""
 player = {
   "name": "jeong",
   "age": 31,
@@ -152,3 +153,19 @@ print(player.pop("age"))
 player['xp'] = 999
 player["fav_food"].append("🌭")
 print(player)
+"""
+
+
+
+# For Loop
+websites = (
+  "google.com",
+  "airbnb.com",
+  "twitter.com",
+  "facebook.com",
+  "tiktok.com"
+)
+
+for website in websites:
+  print(website)
+  
